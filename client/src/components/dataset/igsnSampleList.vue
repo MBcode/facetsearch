@@ -9,7 +9,7 @@
          v-b-toggle="'collapse_' + i.value"
     >
       <div class="tool_info pr-3">
-        <b-link class="small metadata_link" :href="i.url"  target="_top">
+        <b-link class="small metadata_link" :href="i.url"  target="_blank">
           <b-icon class="mr-1" icon="server" variant="data"></b-icon>
           Sample
         </b-link>
