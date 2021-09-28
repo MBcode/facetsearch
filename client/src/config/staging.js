@@ -51,6 +51,14 @@ export default {
             type:'text'
 
         },
+        {
+            field: 'datep',
+            title: 'Year Published Range',
+            sort: 'acs',
+            open: false,
+            type:'range'
+
+        }
 
 
     ],
