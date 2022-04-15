@@ -6,3 +6,7 @@ https://developer.ibm.com/recipes/tutorials/a-best-practice-in-dockerizing-vue-j
 SPARQL OPTIMIZATION:
 https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/query_optimization
 
+figma:
+https://www.figma.com/file/8vqcoUoqBbhc6x42MhB9BK/Survey?node-id=2%3A14728
+
+
