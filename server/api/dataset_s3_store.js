@@ -26,7 +26,7 @@ const getJson =async function(datasetUrn) {
         const mc = new minio.Client(global.gConfig.config.jsonldStore)
         //https://gleaner.oss.geodex.org/summoned/opentopo/0281f678daa333bdc4d9b6bbdf6c07974244e0a4.jsonld
         let jsonld = "";
-        mc.getObject('gleaner', s3Path,
+        mc.getObject(global.gConfig.config.bucket, s3Path,
             function (err, dataStream) {
                 if (err) {
                     // need better error messaging
